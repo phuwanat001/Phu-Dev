@@ -1,0 +1,32 @@
+body {
+    font-family: "Chiron Hei HK", sans-serif;
+    position: relative;
+
+}
+
+.e-img {
+    position: absolute;
+    left: 350px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.h-img {
+    height: 700px;
+    width: auto;
+    
+}
+
+.w-btn{
+    opacity: 0.5;
+}
+
+
+@media (max-width: 768px) {
+
+    .e-img {
+        display: none;
+
+    }
+
+}
